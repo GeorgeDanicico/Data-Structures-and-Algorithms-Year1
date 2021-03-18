@@ -4,18 +4,18 @@
 using namespace std;
 
 SortedMap::SortedMap(Relation r) {
-	//TODO - Implementation
+	
 	this->elements = new TElem[4];
 	this->length = 0;
 	this->capacity = 4;
 	this->relation = r;
 
-	// theta(1)
+	// best case: theta(1)
+	// worst case: theta(1)   => total complexity theta(1)
 }
 
 void SortedMap::resize() {
-	//TODO - Implementation
-	//
+
 	TElem* new_elements = new TElem[2 * this->capacity];
 	for (int index = 0; index < this->capacity; index++) {
 		new_elements[index] = this->elements[index]; 
@@ -24,10 +24,12 @@ void SortedMap::resize() {
 	delete[] this->elements;
 	this->elements = new_elements;
 }
-//theta(length)
+// best case: theta(length)
+// worst case: theta(length) we will always parse through the entire array
+// total complexity: theta(length)
 
 TValue SortedMap::add(TKey k, TValue v) {
-	//TODO - Implementation
+	
 	// If there are no empty spots left, we resize the Dynamic Array.
 	if (this->capacity == this->length)
 		this->resize();
@@ -63,19 +65,24 @@ TValue SortedMap::add(TKey k, TValue v) {
 	this->length++;
 
 	return NULL_TVALUE;
-	// O(length)
+	// best case: theta(length) // if a resize is not made, we parse through the elements, if we find a
+	// suitable position, we save it, and then we shift the remaining elements in order to keep the array sorted after inseration
+	// worst case: theta(length)
+	// final complexity: theta(length)
 }
 
 TValue SortedMap::search(TKey k) const {
-	//TODO - Implementation
+	
 	for (int index = 0; index < this->length; index++) {
 		if (this->elements[index].first == k) {
 			return this->elements[index].second;
 		}
 	}
-	// O(length)
 	return NULL_TVALUE;
 }
+// best case: theta(1)
+// worst case: theta(length)
+// total complexity: O(length)
 
 TValue SortedMap::remove(TKey k) {
 	//TODO - Implementation
@@ -95,29 +102,39 @@ TValue SortedMap::remove(TKey k) {
 	this->length--;
 	return copy.second;
 
-	//theta(length)
 }
+// best case: theta(length) // if the element is on the first position, then we will still have to 
+// shift all the other elements;
+// worst case: theta(length)
+// total complexity: theta(length)
 
 int SortedMap::size() const {
-	//TODO - Implementation
 
 	return this->length;
-	//theta(1)
 }
+// best case: theta(1)
+// worst case: theta(1)
+// total complexity: theta(1)
 
 bool SortedMap::isEmpty() const {
-	//TODO - Implementation
+	
 	return (this->length == 0);
-	//theta(1)
 }
+// best case: theta(1)
+// worst case: theta(1)
+// total complexity: theta(1)
 
 SMIterator SortedMap::iterator() const {
 	return SMIterator(*this);
 }
-//theta(1)
+// best case: theta(1)
+// worst case: theta(1)
+// total complexity: theta(1)
 
 SortedMap::~SortedMap() {
-	//TODO - Implementation
+	
 	delete[] this->elements;
 }
-// theta(1)
+// best case: theta(1)
+// worst case: theta(1)
+// total complexity: theta(1)

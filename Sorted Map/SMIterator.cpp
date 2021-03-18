@@ -5,19 +5,23 @@
 using namespace std;
 
 SMIterator::SMIterator(const SortedMap& m) : map(m){
-	//TODO - Implementation
+	
 	this->current = 0;
 }
-//theta(1)
+// best case: theta(1)
+// worst case: theta(1)
+// total complexity: theta(1)
 
 void SMIterator::first(){
-	//TODO - Implementation
+	
 	this->current = 0;
 }
-//theta(1)
+// best case: theta(1)
+// worst case: theta(1)
+// total complexity: theta(1)
 
 void SMIterator::next(){
-	//TODO - Implementation
+	
 	if (this->valid() == false) {
 		throw exception();
 	}
@@ -26,17 +30,21 @@ void SMIterator::next(){
 	}
 
 }
-//theta(1)
+// best case: theta(1)
+// worst case: theta(1)
+// total complexity: theta(1)
 
 bool SMIterator::valid() const{
-	//TODO - Implementation
+	
 	if (this->current == this->map.length)
 		return false;
 	return true;
 
 	return false;
 }
-//theta(1)
+// best case: theta(1)
+// worst case: theta(1)
+// total complexity: theta(1)
 
 TElem SMIterator::getCurrent() const{
 	if (this->valid() == false) {
@@ -44,5 +52,6 @@ TElem SMIterator::getCurrent() const{
 	}
 	return this->map.elements[this->current];
 }
-//theta(1)
-
+// best case: theta(1)
+// worst case: theta(1)
+// total complexity: theta(1)

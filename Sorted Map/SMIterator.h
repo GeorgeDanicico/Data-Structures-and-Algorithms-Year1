@@ -8,7 +8,7 @@ private:
 	const SortedMap& map;
 	SMIterator(const SortedMap& mapionar);
 
-	//TODO - Representation
+	
 	int current;
 
 public:

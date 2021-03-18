@@ -15,7 +15,7 @@ class SortedMap {
 	// DO NOT CHANGE THIS PART 
 	friend class SMIterator;
     private:
-		//TODO - Representation
+		
 		// DynamicArray representation.
 		TElem* elements;
 		int length; // the current number of pairs
