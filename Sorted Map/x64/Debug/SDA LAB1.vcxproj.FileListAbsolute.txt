@@ -1,0 +1,2 @@
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\Sorted Map\x64\Debug\SDA LAB1.exe
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\Sorted Map\x64\Debug\SDA LAB1.pdb

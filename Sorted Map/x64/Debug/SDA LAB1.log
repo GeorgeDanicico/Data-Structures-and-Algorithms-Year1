@@ -1,0 +1,12 @@
+﻿  App.cpp
+  ExtendedTest.cpp
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\Sorted Map\ExtendedTest.cpp(116,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\Sorted Map\ExtendedTest.cpp(126,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\Sorted Map\ExtendedTest.cpp(134,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\Sorted Map\ExtendedTest.cpp(142,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\Sorted Map\ExtendedTest.cpp(251,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ShortTest.cpp
+  SMIterator.cpp
+  SortedMap.cpp
+  Generating Code...
+  SDA LAB1.vcxproj -> C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\Sorted Map\x64\Debug\SDA LAB1.exe
