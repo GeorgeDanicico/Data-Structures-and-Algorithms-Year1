@@ -65,9 +65,8 @@ TValue SortedMap::add(TKey k, TValue v) {
 	this->length++;
 
 	return NULL_TVALUE;
-	// best case: theta(length) // if a resize is not made, we parse through the elements, if we find a
-	// suitable position, we save it, and then we shift the remaining elements in order to keep the array sorted after inseration
-	// worst case: theta(length)
+	// best case: theta(1) -> If the elements with the given key is on the first position, we just replace the value and return the old value
+	// worst case: theta(length) -> The worst case is met when we have to perform a resize, and besides that, also to shift the elements.
 	// final complexity: theta(length)
 }
 
@@ -130,6 +129,26 @@ SMIterator SortedMap::iterator() const {
 // best case: theta(1)
 // worst case: theta(1)
 // total complexity: theta(1)
+
+void SortedMap::filter(Condition cond) {
+
+	int map_size = this->size();
+	int index = 0;
+	TValue value;
+
+	while (index < map_size) {
+
+		if (!cond(this->elements[index].first)) {
+			value = this->remove(this->elements[index].first);
+			map_size--;
+		}
+		else
+			index++;
+	}
+}
+// Best case: Theta(n): When there is a no key that satisfy the condition
+// Worst case: Theta(n^2): When we have to delete all the keys from the SortedMap
+// Total Complexity: O(n^2)
 
 SortedMap::~SortedMap() {
 	

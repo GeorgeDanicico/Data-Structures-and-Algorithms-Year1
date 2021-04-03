@@ -10,6 +10,7 @@ typedef std::pair<TKey, TValue> TElem;
 #define NULL_TPAIR pair<TKey, TValue>(-111111, -111111);
 class SMIterator;
 typedef bool(*Relation)(TKey, TKey);
+typedef bool(*Condition)(TKey);
 
 class SortedMap {
 	// DO NOT CHANGE THIS PART 
@@ -46,6 +47,9 @@ class SortedMap {
 
 	//checks whether the map is empty or not
 	bool isEmpty() const;
+
+	// Keep in the SortedMap only the elements whose keys respect the conditions
+	void filter(Condition cond);
 
     // return the iterator for the map
     // the iterator will return the keys following the order given by the relation
