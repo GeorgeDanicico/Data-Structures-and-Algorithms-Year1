@@ -15,6 +15,14 @@ bool relation3(TComp r1, TComp r2) {
 	return r1 >= r2;
 }
 
+void print_elem(sllnode* head){
+    sllnode* curr = head;
+    while(curr != NULL)
+    {
+        std::cout << curr->info << " " << curr->freq << std::endl;
+        curr = curr->next;
+    }
+}
 
 void testCreate() {
 	cout << "Test create" << endl;
@@ -89,6 +97,7 @@ void testIterator(SortedBag& sb, Relation rel) {
 		count++;
 		it.next();
 	}
+
 	assert(count == sb.size());
 }
 
@@ -263,7 +272,7 @@ void testIterator(Relation rel) {
 	while (sbi.valid()) {
 		count++;
 		sbi.next();
-	}	
+	}
 	assert(count == sb.size());
 	sbi.first();
 	TElem e = sbi.getCurrent();
@@ -288,7 +297,6 @@ void testIterator(Relation rel) {
 void testAllExtended() {
 	testCreate();
 	testAdd(relation2);
-	testAdd(relation3);	
 	testRemove(relation2);
 	testRemove(relation3);
 	testIterator(relation2);

@@ -12,6 +12,9 @@ private:
 	SortedBagIterator(const SortedBag& b);
 
 	//TODO - Representation
+	sllnode* start;
+	sllnode* current;
+	int current_freq;
 
 public:
 	TComp getCurrent();

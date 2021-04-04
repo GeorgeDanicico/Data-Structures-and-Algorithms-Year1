@@ -7,6 +7,16 @@ typedef TComp TElem;
 typedef bool(*Relation)(TComp, TComp);
 #define NULL_TCOMP -11111;
 
+typedef struct sllnode{
+    TComp info;
+    int freq;
+    sllnode* next;
+};
+
+typedef struct sll{
+    sllnode* head;
+};
+
 class SortedBagIterator;
 
 class SortedBag {
@@ -14,6 +24,9 @@ class SortedBag {
 
 private:
 	//TODO - Representation
+	int length; // the length of the list.
+    sll SLL;
+	Relation rel;
 
 public:
 	//constructor

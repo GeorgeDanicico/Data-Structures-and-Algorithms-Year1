@@ -1,0 +1,3 @@
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/cmake-build-debug/CMakeFiles/SortedBag_Lab_2.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
