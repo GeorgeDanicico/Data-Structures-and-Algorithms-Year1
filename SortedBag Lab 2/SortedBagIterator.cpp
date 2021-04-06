@@ -7,8 +7,7 @@ using namespace std;
 
 SortedBagIterator::SortedBagIterator(const SortedBag& b) : bag(b) {
 	//TODO - Implementation
-	this->start = b.SLL.head;
-	this->current = start;
+	this->current = this->bag.SLL.head;
 	this->current_freq = 1;
 }
 // Best case: theta(1)
@@ -51,7 +50,7 @@ void SortedBagIterator::next() {
 // Total complexity: theta(1)
 
 void SortedBagIterator::first() {
-	this->current = this->start;
+	this->current = this->bag.SLL.head;
 	this->current_freq = 1;
 }
 // Best case: theta(1)

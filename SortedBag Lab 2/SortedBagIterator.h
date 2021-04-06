@@ -9,10 +9,9 @@ class SortedBagIterator
 
 private:
 	const SortedBag& bag;
-	SortedBagIterator(const SortedBag& b);
+	explicit SortedBagIterator(const SortedBag& b);
 
 	//TODO - Representation
-	sllnode* start;
 	sllnode* current;
 	int current_freq;
 
