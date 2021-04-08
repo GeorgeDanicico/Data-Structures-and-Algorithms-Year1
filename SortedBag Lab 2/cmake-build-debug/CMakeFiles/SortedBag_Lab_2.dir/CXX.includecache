@@ -6,46 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/App.cpp
-SortedBag.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBag.h
-SortedBagIterator.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBagIterator.h
-iostream
--
-ShortTest.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/ShortTest.h
-ExtendedTest.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/ExtendedTest.h
-
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/ExtendedTest.cpp
-ShortTest.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/ShortTest.h
-SortedBag.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBag.h
-SortedBagIterator.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBagIterator.h
-assert.h
--
-iostream
--
-exception
--
-
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/ExtendedTest.h
-
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/ShortTest.cpp
-ShortTest.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/ShortTest.h
-SortedBag.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBag.h
-SortedBagIterator.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBagIterator.h
-assert.h
--
-
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/ShortTest.h
-
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBag.cpp
 SortedBag.h
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBag.h
@@ -55,16 +15,6 @@ iostream
 -
 
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBag.h
-
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBagIterator.cpp
-SortedBagIterator.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBagIterator.h
-SortedBag.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBag.h
-exception
--
-iostream
--
 
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBagIterator.h
 SortedBag.h

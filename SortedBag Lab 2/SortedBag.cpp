@@ -4,7 +4,7 @@
 
 SortedBag::SortedBag(Relation r) {
 	//TODO - Implementation
-	this->SLL.head = NULL;
+	this->SLL.head = nullptr;
 	this->rel = r;
 	this->length = 0;
 }
@@ -16,18 +16,18 @@ void SortedBag::add(TComp e) {
 	//TODO - Implementation
 	sllnode* current = this->SLL.head;
     // if the list is empty, we have to add the element on the first position
-    if(current == NULL){
-        sllnode* new_node = new sllnode();
+    if(current == nullptr){
+        sllnode* new_node = new sllnode;
         new_node->info = e;
         new_node->freq = 1;
-        new_node->next = NULL;
+        new_node->next = nullptr;
         this->SLL.head = new_node;
         this->length ++;
         return;
     }
     // If the elements needs to be added on the first position, we change the head.
     if(!this->rel(current->info, e)){
-        sllnode* new_node = new sllnode();
+        sllnode* new_node = new sllnode;
         new_node->info = e;
         new_node->freq = 1;
         new_node->next = current;
@@ -36,7 +36,7 @@ void SortedBag::add(TComp e) {
         return;
     }
 	// We do a search through the list to check if there is the element we want to add.
-	while(current->next != NULL && this->rel(current->next->info, e))
+	while(current->next != nullptr && this->rel(current->next->info, e))
 	    current = current->next;
 
     // There are 2 cases: if the element is not in the list or it is.
@@ -47,7 +47,7 @@ void SortedBag::add(TComp e) {
         this->length ++;
     }
     else {
-        sllnode *new_node = new sllnode();
+        auto *new_node = new sllnode;
         new_node->info = e;
         new_node->freq = 1;
         new_node->next = current->next;
@@ -64,7 +64,7 @@ bool SortedBag::remove(TComp e) {
     sllnode* current = this->SLL.head;
 
     // if the list is empty there is nothing we can remove
-    if(current == NULL)
+    if(current == nullptr)
         return false;
 
     // If the relation between the first element and the searched element is false, it means that the searched element is not
@@ -77,15 +77,15 @@ bool SortedBag::remove(TComp e) {
             current->freq--, this->length --;
         else{
             this->SLL.head = current->next;
-            current->next = NULL;
+            current->next = nullptr;
             this->length --;
             delete current;
         }
         return true;
     }
 
-    sllnode* previous = NULL;
-    while(current->next != NULL && this->rel(current->next->info, e)) {
+    sllnode* previous = nullptr;
+    while(current->next != nullptr && this->rel(current->next->info, e)) {
         previous = current;
         current = current->next;
     }
@@ -100,7 +100,7 @@ bool SortedBag::remove(TComp e) {
             current->freq --, this->length --;
         else{
             previous->next = current->next;
-            current->next = NULL;
+            current->next = nullptr;
             this->length --;
             delete current;
         }
@@ -115,11 +115,11 @@ bool SortedBag::remove(TComp e) {
 bool SortedBag::search(TComp elem) const {
     sllnode* current = this->SLL.head;
 
-    while(current != NULL && current->info != elem)
+    while(current != nullptr && current->info != elem)
         current = current->next;
     // If the element is not in the list we return false.
     // Otherwise we return true.
-    if(current == NULL)
+    if(current == nullptr)
         return false;
     else return true;
 }
@@ -130,11 +130,11 @@ bool SortedBag::search(TComp elem) const {
 int SortedBag::nrOccurrences(TComp elem) const {
 	sllnode* current = this->SLL.head;
 
-	while(current != NULL && current->info != elem)
+	while(current != nullptr && current->info != elem)
 	    current = current->next;
 	// If the element is not in the list we return null.
 	// Otherwise we return the frequence of the required element.
-	if(current == NULL)
+	if(current == nullptr)
 	    return 0;
 	else return current->freq;
 }
@@ -152,7 +152,7 @@ int SortedBag::size() const {
 
 
 bool SortedBag::isEmpty() const {
-	if (this->SLL.head == NULL)
+	if (this->SLL.head == nullptr)
 	    return true;
 	return false;
 }
@@ -170,7 +170,7 @@ SortedBagIterator SortedBag::iterator() const {
 
 SortedBag::~SortedBag() {
 	//TODO - Implementation
-	while(this->SLL.head != NULL){
+	while(this->SLL.head != nullptr){
         sllnode* current = this->SLL.head;
 	    this->SLL.head = current->next;
 	    delete current;

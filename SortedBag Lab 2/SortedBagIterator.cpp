@@ -1,7 +1,5 @@
 #include "SortedBagIterator.h"
-#include "SortedBag.h"
 #include <exception>
-#include<iostream>
 
 using namespace std;
 
@@ -25,7 +23,7 @@ TComp SortedBagIterator::getCurrent() {
 // Total complexity: theta(1)
 
 bool SortedBagIterator::valid() {
-	if(this->current == NULL)
+	if(this->current == nullptr)
 	    return false;
 	return true;
 }
