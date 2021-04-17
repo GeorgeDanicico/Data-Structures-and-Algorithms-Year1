@@ -54,6 +54,8 @@ public:
 	//checks if the sorted bag is empty
 	bool isEmpty() const;
 
+    void addOccurrences(int nr, TComp elem);
+
 	//destructor
 	~SortedBag();
 };

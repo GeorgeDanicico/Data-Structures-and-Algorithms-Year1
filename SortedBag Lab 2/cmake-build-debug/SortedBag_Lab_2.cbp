@@ -107,6 +107,12 @@
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/SortedBagIterator.h">
 			<Option target="SortedBag_Lab_2"/>
 		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/test_function.cpp">
+			<Option target="SortedBag_Lab_2"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/test_function.h">
+			<Option target="SortedBag_Lab_2"/>
+		</Unit>
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedBag Lab 2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

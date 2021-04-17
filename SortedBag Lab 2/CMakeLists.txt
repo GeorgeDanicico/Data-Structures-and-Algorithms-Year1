@@ -4,6 +4,8 @@ project(SortedBag_Lab_2)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(SortedBag_Lab_2
+        test_function.cpp
+        test_function.h
         App.cpp
         ExtendedTest.cpp
         ExtendedTest.h

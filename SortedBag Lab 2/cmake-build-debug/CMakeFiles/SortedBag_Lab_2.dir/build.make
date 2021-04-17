@@ -76,9 +76,22 @@ include CMakeFiles/SortedBag_Lab_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SortedBag_Lab_2.dir/flags.make
 
+CMakeFiles/SortedBag_Lab_2.dir/test_function.cpp.obj: CMakeFiles/SortedBag_Lab_2.dir/flags.make
+CMakeFiles/SortedBag_Lab_2.dir/test_function.cpp.obj: ../test_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/test_function.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SortedBag_Lab_2.dir\test_function.cpp.obj -c "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\test_function.cpp"
+
+CMakeFiles/SortedBag_Lab_2.dir/test_function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SortedBag_Lab_2.dir/test_function.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\test_function.cpp" > CMakeFiles\SortedBag_Lab_2.dir\test_function.cpp.i
+
+CMakeFiles/SortedBag_Lab_2.dir/test_function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SortedBag_Lab_2.dir/test_function.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\test_function.cpp" -o CMakeFiles\SortedBag_Lab_2.dir\test_function.cpp.s
+
 CMakeFiles/SortedBag_Lab_2.dir/App.cpp.obj: CMakeFiles/SortedBag_Lab_2.dir/flags.make
 CMakeFiles/SortedBag_Lab_2.dir/App.cpp.obj: ../App.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/App.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/App.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SortedBag_Lab_2.dir\App.cpp.obj -c "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\App.cpp"
 
 CMakeFiles/SortedBag_Lab_2.dir/App.cpp.i: cmake_force
@@ -91,7 +104,7 @@ CMakeFiles/SortedBag_Lab_2.dir/App.cpp.s: cmake_force
 
 CMakeFiles/SortedBag_Lab_2.dir/ExtendedTest.cpp.obj: CMakeFiles/SortedBag_Lab_2.dir/flags.make
 CMakeFiles/SortedBag_Lab_2.dir/ExtendedTest.cpp.obj: ../ExtendedTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/ExtendedTest.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/ExtendedTest.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SortedBag_Lab_2.dir\ExtendedTest.cpp.obj -c "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\ExtendedTest.cpp"
 
 CMakeFiles/SortedBag_Lab_2.dir/ExtendedTest.cpp.i: cmake_force
@@ -104,7 +117,7 @@ CMakeFiles/SortedBag_Lab_2.dir/ExtendedTest.cpp.s: cmake_force
 
 CMakeFiles/SortedBag_Lab_2.dir/ShortTest.cpp.obj: CMakeFiles/SortedBag_Lab_2.dir/flags.make
 CMakeFiles/SortedBag_Lab_2.dir/ShortTest.cpp.obj: ../ShortTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/ShortTest.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/ShortTest.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SortedBag_Lab_2.dir\ShortTest.cpp.obj -c "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\ShortTest.cpp"
 
 CMakeFiles/SortedBag_Lab_2.dir/ShortTest.cpp.i: cmake_force
@@ -117,7 +130,7 @@ CMakeFiles/SortedBag_Lab_2.dir/ShortTest.cpp.s: cmake_force
 
 CMakeFiles/SortedBag_Lab_2.dir/SortedBag.cpp.obj: CMakeFiles/SortedBag_Lab_2.dir/flags.make
 CMakeFiles/SortedBag_Lab_2.dir/SortedBag.cpp.obj: ../SortedBag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/SortedBag.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/SortedBag.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SortedBag_Lab_2.dir\SortedBag.cpp.obj -c "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\SortedBag.cpp"
 
 CMakeFiles/SortedBag_Lab_2.dir/SortedBag.cpp.i: cmake_force
@@ -130,7 +143,7 @@ CMakeFiles/SortedBag_Lab_2.dir/SortedBag.cpp.s: cmake_force
 
 CMakeFiles/SortedBag_Lab_2.dir/SortedBagIterator.cpp.obj: CMakeFiles/SortedBag_Lab_2.dir/flags.make
 CMakeFiles/SortedBag_Lab_2.dir/SortedBagIterator.cpp.obj: ../SortedBagIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/SortedBagIterator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SortedBag_Lab_2.dir/SortedBagIterator.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SortedBag_Lab_2.dir\SortedBagIterator.cpp.obj -c "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\SortedBagIterator.cpp"
 
 CMakeFiles/SortedBag_Lab_2.dir/SortedBagIterator.cpp.i: cmake_force
@@ -143,6 +156,7 @@ CMakeFiles/SortedBag_Lab_2.dir/SortedBagIterator.cpp.s: cmake_force
 
 # Object files for target SortedBag_Lab_2
 SortedBag_Lab_2_OBJECTS = \
+"CMakeFiles/SortedBag_Lab_2.dir/test_function.cpp.obj" \
 "CMakeFiles/SortedBag_Lab_2.dir/App.cpp.obj" \
 "CMakeFiles/SortedBag_Lab_2.dir/ExtendedTest.cpp.obj" \
 "CMakeFiles/SortedBag_Lab_2.dir/ShortTest.cpp.obj" \
@@ -152,6 +166,7 @@ SortedBag_Lab_2_OBJECTS = \
 # External object files for target SortedBag_Lab_2
 SortedBag_Lab_2_EXTERNAL_OBJECTS =
 
+SortedBag_Lab_2.exe: CMakeFiles/SortedBag_Lab_2.dir/test_function.cpp.obj
 SortedBag_Lab_2.exe: CMakeFiles/SortedBag_Lab_2.dir/App.cpp.obj
 SortedBag_Lab_2.exe: CMakeFiles/SortedBag_Lab_2.dir/ExtendedTest.cpp.obj
 SortedBag_Lab_2.exe: CMakeFiles/SortedBag_Lab_2.dir/ShortTest.cpp.obj
@@ -161,7 +176,7 @@ SortedBag_Lab_2.exe: CMakeFiles/SortedBag_Lab_2.dir/build.make
 SortedBag_Lab_2.exe: CMakeFiles/SortedBag_Lab_2.dir/linklibs.rsp
 SortedBag_Lab_2.exe: CMakeFiles/SortedBag_Lab_2.dir/objects1.rsp
 SortedBag_Lab_2.exe: CMakeFiles/SortedBag_Lab_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SortedBag_Lab_2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedBag Lab 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SortedBag_Lab_2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SortedBag_Lab_2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

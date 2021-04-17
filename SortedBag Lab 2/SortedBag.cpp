@@ -1,6 +1,7 @@
 #include "SortedBag.h"
 #include "SortedBagIterator.h"
 #include <iostream>
+#include <exception>
 
 SortedBag::SortedBag(Relation r) {
 	//TODO - Implementation
@@ -179,3 +180,19 @@ SortedBag::~SortedBag() {
 // Best case: theta(n)
 // Worst case: theta(n) In all case we have to go through all the elements in the list.
 // Total complexity: theta(n)
+
+void SortedBag::addOccurrences(int nr, TComp elem) {
+    // If the number of occurences is negative we throw an exception
+    if (nr <= 0){
+        throw std::exception();
+    }
+
+    // Add the element 'nr' times.
+    // If the element is not in the list, it will be added.
+    for(int i = 0 ; i < nr; i++){
+        this->add(elem);
+    }
+}
+// Best case: theta(nr) -> this case is met when the element whose occurence we want to increase is/should be on the first position.
+// Worst Case: theta(nr * n) where n is the length of the SLL -> this case is met when the element whose occurence we want to increase is/should be on the last position.
+// Total Complexity: O(nr * n)
