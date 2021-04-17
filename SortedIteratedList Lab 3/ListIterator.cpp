@@ -5,25 +5,50 @@
 using namespace std;
 
 ListIterator::ListIterator(const SortedIteratedList& list) : list(list){
-	//TODO - Implementation
+	this->current = list.head;
 }
+// Best case: theta(1)
+// Worst case: theta(1)
+// Total complexity: theta(1)
 
 void ListIterator::first(){
-	//TODO - Implementation
+    this->current = list.head;
 }
+// Best case: theta(1)
+// Worst case: theta(1)
+// Total complexity: theta(1)
 
 void ListIterator::next(){
-	//TODO - Implementation
+	if(this->valid()){
+	    this->current = list.next[current];
+	}
+    else{
+        throw exception();
+    }
 }
+// Best case: theta(1)
+// Worst case: theta(1)
+// Total complexity: theta(1)
 
 bool ListIterator::valid() const{
-	//TODO - Implementation
-	return false;
+	if(this->current == -1)
+	    return false;
+	return true;
 }
+// Best case: theta(1)
+// Worst case: theta(1)
+// Total complexity: theta(1)
 
 TComp ListIterator::getCurrent() const{
-	//TODO - Implementation
-	return NULL_TCOMP;
+	if(this->valid()) {
+        return list.elems[current];
+    }
+    else{
+        throw exception();
+    }
 }
+// Best case: theta(1)
+// Worst case: theta(1)
+// Total complexity: theta(1)
 
 

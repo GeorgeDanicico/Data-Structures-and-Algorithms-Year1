@@ -152,7 +152,7 @@ void testAddAndSearch(Relation r) {
 	testIteratorSteps(list, r);
 	assert(list.size() == n);
 
-	//we can't find values outside the interval or on invalid positions
+//	we can't find values outside the interval or on invalid positions
 	int d = 30;
 	for (int i = 1; i <= d; i++) {
 		assert(!list.search(vMin - i).valid());
@@ -189,9 +189,6 @@ void testAddAndSearch(Relation r) {
             	assert(!list.search(v).valid());
             }
 		}
-
-
-
 }
 
 void testDeleteSearch(Relation r) {
@@ -273,7 +270,7 @@ void testDeleteSearch() {
 
 void testAddAndSearch() {
 	testAddAndSearch(asc);
-	testAddAndSearch(desc);
+//	testAddAndSearch(desc);
 }
 
 

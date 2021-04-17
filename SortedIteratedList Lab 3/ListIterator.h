@@ -8,6 +8,7 @@ private:
 	const SortedIteratedList& list;
 	ListIterator(const SortedIteratedList& list);
 
+	int current;
 	//TODO - Representation
 public:
 	void first();

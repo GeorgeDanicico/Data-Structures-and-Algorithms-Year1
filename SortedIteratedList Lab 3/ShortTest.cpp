@@ -19,10 +19,11 @@ void testAll(){
 	SortedIteratedList list = SortedIteratedList(relation1);
 	assert(list.size() == 0);
 	assert(list.isEmpty());
-    list.add(1);
-//    list.add(2);
-//    list.add(3);
 //    list.add(4);
+//    list.add(4);
+//    list.add(3);
+//    list.add(2);
+    list.add(1);
 //    assert(list.size() == 4);
     assert(list.size() == 1);
     assert(!list.isEmpty());
