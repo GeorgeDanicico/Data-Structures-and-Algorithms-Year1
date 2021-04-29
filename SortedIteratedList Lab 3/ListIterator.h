@@ -12,6 +12,7 @@ private:
 	//TODO - Representation
 public:
 	void first();
+	void previous();
 	void next();
 	bool valid() const;
     TComp getCurrent() const;

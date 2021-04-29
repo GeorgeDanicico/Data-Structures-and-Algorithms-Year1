@@ -270,7 +270,7 @@ void testDeleteSearch() {
 
 void testAddAndSearch() {
 	testAddAndSearch(asc);
-//	testAddAndSearch(desc);
+	testAddAndSearch(desc);
 }
 
 

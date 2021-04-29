@@ -11,4 +11,6 @@ add_executable(SortedIteratedList_Lab_3 App.cpp
         SortedIteratedList.cpp
         SortedIteratedList.h
         ExtendedTest.h
-        ExtendedTest.cpp)
+        ExtendedTest.cpp
+        test_function.h
+        test_function.cpp)
