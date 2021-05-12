@@ -6,27 +6,29 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/App.cpp
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/ExtendedTest.cpp
 Set.h
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/Set.h
-SetIterator.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/SetIterator.h
+assert.h
+-
 ExtendedTest.h
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/ExtendedTest.h
-ShortTest.h
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/ShortTest.h
-stack
--
+SetIterator.h
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/SetIterator.h
 iostream
 -
 
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/ExtendedTest.h
 
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/Set.h
+vector
+-
+bitset
+-
+cstring
+-
 
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/SetIterator.h
 Set.h
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/Set.h
-
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/ShortTest.h
 

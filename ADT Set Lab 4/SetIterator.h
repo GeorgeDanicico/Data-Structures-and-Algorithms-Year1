@@ -10,7 +10,8 @@ private:
 	const Set& set;
 	SetIterator(const Set& s);
 
-	//TODO - Representation
+	int current_index;
+	int current_number;
 
 public:
 	void first();

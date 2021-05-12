@@ -20,6 +20,8 @@ void testIteratorSteps(Set& s) {
 	int count = 0;
 	SetIterator si = s.iterator();
 	while (si.valid()) {
+
+
 		count++;
 		si.next();
 	}
@@ -54,13 +56,14 @@ void testAdd() {
 	assert(s.isEmpty() == false);
 	assert(s.size() == 10);
 	for (int i = -10; i < 20; i++) { //add more elements [-10, 20)
-		s.add(i);
+	    s.add(i);
 	}
 	//printM(m);
 	assert(s.isEmpty() == false);
 	assert(s.size() == 30);
 	for (int i = -100; i < 100; i++) { //add more elements [-100, 100)
-		s.add(i);
+//        cout << s.size() << " ---- " << i << endl;
+	    s.add(i);
 	}
 	//printM(m);
 	assert(s.isEmpty() == false);
@@ -70,6 +73,7 @@ void testAdd() {
 			assert(s.search(i) == false);
 		}
 		else if (i < 0) {
+
 			assert(s.search(i) == true);
 		}
 		else if (i < 100) {
@@ -99,8 +103,11 @@ void testRemove() {
 	for (int i = -100; i < 100; i = i + 2) { 
 		m.add(i);
 	}
+
 	for (int i = -100; i < 100; i++) { //delete everything (including inexistent elements)
 		if (i % 2 == 0) {
+
+
 			assert(m.remove(i) == true);
 		}
 		else {
@@ -110,7 +117,7 @@ void testRemove() {
 	assert(m.size() == 0);
 	//printM(m);
 
-	for (int i = -100; i <= 100; i = i + 2) { 
+	for (int i = -100; i <= 100; i = i + 2) {
 		m.add(i);
 	}
 	//printM(m);

@@ -1,32 +1,50 @@
 #include "SetIterator.h"
 #include "Set.h"
 
+#include <iostream>
 
 SetIterator::SetIterator(const Set& m) : set(m)
 {
-	//TODO - Implementation
+	this->current_index = 0;
+    while(this->valid() && this->set.elements[current_index] <= NULL_TELEM)
+        this->current_index ++;
 }
 
 
 void SetIterator::first() {
-	//TODO - Implementation
+	this->current_index = 0;
+	while(this->valid() && this->set.elements[current_index] <= NULL_TELEM)
+        this->current_index ++;
+
 }
 
 
 void SetIterator::next() {
-	//TODO - Implementation
+
+    if(this->valid()){
+        this->current_index++;
+	    while(this->valid() && this->set.elements[current_index] <= NULL_TELEM)
+            this->current_index ++;
+	}
+	else{
+	    throw exception();
+	}
 }
 
 
 TElem SetIterator::getCurrent()
 {
-	//TODO - Implementation
-	return NULL_TELEM;
+	if(this->valid())
+	    return this->set.elements[this->current_index];
+	else{
+	    throw exception();
+	}
 }
 
 bool SetIterator::valid() const {
-	//TODO - Implementation
-	return false;
+	if(this->set.size() == 0 || this->current_index >= this->set.capacity)
+	    return false;
+	return true;
 }
 
 
