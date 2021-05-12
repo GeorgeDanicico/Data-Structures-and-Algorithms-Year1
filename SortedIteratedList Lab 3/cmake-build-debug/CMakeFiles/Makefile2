@@ -93,12 +93,12 @@ clean: CMakeFiles/SortedIteratedList_Lab_3.dir/clean
 CMakeFiles/SortedIteratedList_Lab_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedIteratedList_Lab_3.dir\build.make CMakeFiles/SortedIteratedList_Lab_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedIteratedList_Lab_3.dir\build.make CMakeFiles/SortedIteratedList_Lab_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedIteratedList Lab 3\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target SortedIteratedList_Lab_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedIteratedList Lab 3\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target SortedIteratedList_Lab_3"
 .PHONY : CMakeFiles/SortedIteratedList_Lab_3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SortedIteratedList_Lab_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedIteratedList Lab 3\cmake-build-debug\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedIteratedList Lab 3\cmake-build-debug\CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SortedIteratedList_Lab_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedIteratedList Lab 3\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/SortedIteratedList_Lab_3.dir/rule

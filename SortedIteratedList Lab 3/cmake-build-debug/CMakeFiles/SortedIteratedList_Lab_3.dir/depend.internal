@@ -4,7 +4,10 @@
 CMakeFiles/SortedIteratedList_Lab_3.dir/App.cpp.obj
  C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/App.cpp
  C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ExtendedTest.h
+ C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ListIterator.h
  C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ShortTest.h
+ C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.h
+ C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/test_function.h
 CMakeFiles/SortedIteratedList_Lab_3.dir/ExtendedTest.cpp.obj
  C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ExtendedTest.cpp
  C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ExtendedTest.h
@@ -22,3 +25,8 @@ CMakeFiles/SortedIteratedList_Lab_3.dir/SortedIteratedList.cpp.obj
  C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ListIterator.h
  C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.cpp
  C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.h
+CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.obj
+ C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ListIterator.h
+ C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.h
+ C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/test_function.cpp
+ C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/test_function.h

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ListIterator.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/cmake-build-debug/CMakeFiles/SortedIteratedList_Lab_3.dir/ListIterator.cpp.obj"
   "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ShortTest.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/cmake-build-debug/CMakeFiles/SortedIteratedList_Lab_3.dir/ShortTest.cpp.obj"
   "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/cmake-build-debug/CMakeFiles/SortedIteratedList_Lab_3.dir/SortedIteratedList.cpp.obj"
+  "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/test_function.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/cmake-build-debug/CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

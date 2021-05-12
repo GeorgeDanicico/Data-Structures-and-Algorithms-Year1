@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SortedIteratedList_Lab_3.dir/ListIterator.cpp.obj"
   "CMakeFiles/SortedIteratedList_Lab_3.dir/ShortTest.cpp.obj"
   "CMakeFiles/SortedIteratedList_Lab_3.dir/SortedIteratedList.cpp.obj"
+  "CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.obj"
   "SortedIteratedList_Lab_3.exe"
   "SortedIteratedList_Lab_3.exe.manifest"
   "SortedIteratedList_Lab_3.pdb"

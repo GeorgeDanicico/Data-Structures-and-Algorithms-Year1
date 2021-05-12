@@ -107,6 +107,12 @@
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.h">
 			<Option target="SortedIteratedList_Lab_3"/>
 		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/test_function.cpp">
+			<Option target="SortedIteratedList_Lab_3"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/test_function.h">
+			<Option target="SortedIteratedList_Lab_3"/>
+		</Unit>
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

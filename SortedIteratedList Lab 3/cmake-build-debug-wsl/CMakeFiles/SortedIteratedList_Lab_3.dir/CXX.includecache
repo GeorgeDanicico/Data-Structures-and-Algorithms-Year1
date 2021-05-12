@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ListIterator.h
+SortedIteratedList.h
+/mnt/c/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.h
+
+/mnt/c/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.cpp
+ListIterator.h
+/mnt/c/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/ListIterator.h
+SortedIteratedList.h
+/mnt/c/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.h
+iostream
+-
+exception
+-
+
+/mnt/c/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/SortedIteratedList Lab 3/SortedIteratedList.h
+

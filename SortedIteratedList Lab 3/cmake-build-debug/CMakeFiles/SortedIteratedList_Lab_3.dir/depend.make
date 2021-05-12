@@ -3,7 +3,10 @@
 
 CMakeFiles/SortedIteratedList_Lab_3.dir/App.cpp.obj: ../App.cpp
 CMakeFiles/SortedIteratedList_Lab_3.dir/App.cpp.obj: ../ExtendedTest.h
+CMakeFiles/SortedIteratedList_Lab_3.dir/App.cpp.obj: ../ListIterator.h
 CMakeFiles/SortedIteratedList_Lab_3.dir/App.cpp.obj: ../ShortTest.h
+CMakeFiles/SortedIteratedList_Lab_3.dir/App.cpp.obj: ../SortedIteratedList.h
+CMakeFiles/SortedIteratedList_Lab_3.dir/App.cpp.obj: ../test_function.h
 
 CMakeFiles/SortedIteratedList_Lab_3.dir/ExtendedTest.cpp.obj: ../ExtendedTest.cpp
 CMakeFiles/SortedIteratedList_Lab_3.dir/ExtendedTest.cpp.obj: ../ExtendedTest.h
@@ -21,4 +24,9 @@ CMakeFiles/SortedIteratedList_Lab_3.dir/ShortTest.cpp.obj: ../SortedIteratedList
 CMakeFiles/SortedIteratedList_Lab_3.dir/SortedIteratedList.cpp.obj: ../ListIterator.h
 CMakeFiles/SortedIteratedList_Lab_3.dir/SortedIteratedList.cpp.obj: ../SortedIteratedList.cpp
 CMakeFiles/SortedIteratedList_Lab_3.dir/SortedIteratedList.cpp.obj: ../SortedIteratedList.h
+
+CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.obj: ../ListIterator.h
+CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.obj: ../SortedIteratedList.h
+CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.obj: ../test_function.cpp
+CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.obj: ../test_function.h
 

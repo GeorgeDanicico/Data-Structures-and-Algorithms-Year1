@@ -277,6 +277,33 @@ SortedIteratedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedIteratedList_Lab_3.dir\build.make CMakeFiles/SortedIteratedList_Lab_3.dir/SortedIteratedList.cpp.s
 .PHONY : SortedIteratedList.cpp.s
 
+test_function.obj: test_function.cpp.obj
+
+.PHONY : test_function.obj
+
+# target to build an object file
+test_function.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedIteratedList_Lab_3.dir\build.make CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.obj
+.PHONY : test_function.cpp.obj
+
+test_function.i: test_function.cpp.i
+
+.PHONY : test_function.i
+
+# target to preprocess a source file
+test_function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedIteratedList_Lab_3.dir\build.make CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.i
+.PHONY : test_function.cpp.i
+
+test_function.s: test_function.cpp.s
+
+.PHONY : test_function.s
+
+# target to generate assembly for a file
+test_function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedIteratedList_Lab_3.dir\build.make CMakeFiles/SortedIteratedList_Lab_3.dir/test_function.cpp.s
+.PHONY : test_function.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -301,6 +328,9 @@ help:
 	@echo ... SortedIteratedList.obj
 	@echo ... SortedIteratedList.i
 	@echo ... SortedIteratedList.s
+	@echo ... test_function.obj
+	@echo ... test_function.i
+	@echo ... test_function.s
 .PHONY : help
 
 
