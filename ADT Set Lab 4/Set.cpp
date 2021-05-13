@@ -14,9 +14,9 @@ Set::Set() {
     this->generatePrimes();
 	this->current_size = 0;
 }
-// Best case: theta(1)
-// Worst case: theta(1)
-// Total complexity: theta(1)
+// Best case: theta(n) because we have to initialise the elements with NULL_TELEM
+// Worst case: theta(n)
+// Total complexity: theta(n)
 
 bool Set::add(TElem elem) {
 
@@ -114,6 +114,9 @@ int Set::hash_function(TElem k,int i) const {
     k = abs(k);
     return (k % this->capacity + i * (1 + (k % (this->capacity - 1)))) % this->capacity;
 }
+// Best case: theta(1)
+// Worst case: theta(1)
+// Total complexity: theta(1)
 
 void Set::generatePrimes() {
     this->prime_numbers[0] = 1;
@@ -124,8 +127,10 @@ void Set::generatePrimes() {
                 this->prime_numbers[j]= 1;
         }
     }
-
 }
+// Best case: theta(n*log(log(n)))
+// Worst case: theta(n*log(log(n)))
+// Total complexity: theta(n*log(log(n)))
 
 void Set::resize_rehash() {
     int new_capacity = 2 * this->capacity;
@@ -144,7 +149,7 @@ void Set::resize_rehash() {
         int j = 0; // probe number
 
         int pos = this->hash_function(this->elements[i], j);
-        while(j < this->current_size && new_elements[pos] != NULL_TELEM && new_elements[pos] != DEL_TELEM){
+        while(j < this->capacity && new_elements[pos] != NULL_TELEM && new_elements[pos] != DEL_TELEM){
             j++;
             pos = this->hash_function(this->elements[i], j);
         }
@@ -154,5 +159,13 @@ void Set::resize_rehash() {
     delete this->elements;
     this->elements = new_elements;
 }
+// Best case: theta(n) -> [n is the new capacity, a prime number, > 2*m, where m was the previous capacity]the best case would
+//                     be when after assigning the new array with the value NULL_TELEM, since the previous
+//                     capacity is less than the new one, for every element from the previous array, the hash function would
+//                     generate a valid position at the first call.
+// Worst case: theta(m ^ 3) -> for sure that the new capacity will be smaller than the square of the previous one. If for all elements, the
+//                              hash function would return the same value, for example, when we add an element, it takes this->current_size + 1 steps to add it,
+//                              then the complexity of the loops would be m * (1 + 2 + 3 + ... + m) = m * (m^2 + m) / 2 = (m^3 + m^2) / 2
+// Total complexity: O(m ^ 3)
 
 
