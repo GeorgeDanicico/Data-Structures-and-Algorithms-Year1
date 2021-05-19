@@ -163,9 +163,9 @@ void Set::resize_rehash() {
 //                     be when after assigning the new array with the value NULL_TELEM, since the previous
 //                     capacity is less than the new one, for every element from the previous array, the hash function would
 //                     generate a valid position at the first call.
-// Worst case: theta(m ^ 3) -> for sure that the new capacity will be smaller than the square of the previous one. If for all elements, the
+// Worst case: theta(m ^ 2) -> for sure that the new capacity will be smaller than the square of the previous one. If for all elements, the
 //                              hash function would return the same value, for example, when we add an element, it takes this->current_size + 1 steps to add it,
-//                              then the complexity of the loops would be m * (1 + 2 + 3 + ... + m) = m * (m^2 + m) / 2 = (m^3 + m^2) / 2
-// Total complexity: O(m ^ 3)
+//                              then the complexity of the loops would be (2 + 3 + 4 + ... + m + 1) ~ (m^2 + m) / 2 ~ (m^2 + m^1) / 2 ~ m^2
+// Total complexity: O(m ^ 2)
 
 
