@@ -13,12 +13,26 @@ using namespace std;
 class SMMIterator;
 typedef bool(*Relation)(TKey, TKey);
 
+typedef struct BSTNode {
+    TKey key; // the unique keys are stored with a dynamic array.
+    TValue* values; // the array will hold the values associated for the key
+    BSTNode* left;
+    BSTNode* right;
+
+    int current_size; // the size of the elements of the array.
+    int capacity; // the capacity of the dynamic array.
+};
+
+typedef struct BST {
+    BSTNode* root;
+};
+
 
 class SortedMultiMap {
 	friend class SMMIterator;
     private:
-		//TODO - Representation
-
+        BST tree;
+        Relation rel;
     public:
 
     // constructor
