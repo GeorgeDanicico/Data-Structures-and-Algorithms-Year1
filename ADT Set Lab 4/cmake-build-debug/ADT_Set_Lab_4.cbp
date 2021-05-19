@@ -107,6 +107,12 @@
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/ShortTest.h">
 			<Option target="ADT_Set_Lab_4"/>
 		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/tests.cpp">
+			<Option target="ADT_Set_Lab_4"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/tests.h">
+			<Option target="ADT_Set_Lab_4"/>
+		</Unit>
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

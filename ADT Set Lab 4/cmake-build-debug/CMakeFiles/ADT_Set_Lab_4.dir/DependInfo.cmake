@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/Set.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/cmake-build-debug/CMakeFiles/ADT_Set_Lab_4.dir/Set.cpp.obj"
   "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/SetIterator.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/cmake-build-debug/CMakeFiles/ADT_Set_Lab_4.dir/SetIterator.cpp.obj"
   "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/ShortTest.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/cmake-build-debug/CMakeFiles/ADT_Set_Lab_4.dir/ShortTest.cpp.obj"
+  "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/tests.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/cmake-build-debug/CMakeFiles/ADT_Set_Lab_4.dir/tests.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

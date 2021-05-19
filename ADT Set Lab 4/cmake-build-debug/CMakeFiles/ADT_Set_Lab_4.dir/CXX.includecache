@@ -22,15 +22,21 @@ bitset
 cstring
 -
 
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/SetIterator.cpp
-SetIterator.h
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/SetIterator.h
 Set.h
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/Set.h
+
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/tests.cpp
+tests.h
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/tests.h
+cassert
+-
 iostream
 -
 
-C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/SetIterator.h
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/tests.h
 Set.h
 C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/Set.h
+SetIterator.h
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Data-Structures-and-Algorithms-Year1/ADT Set Lab 4/SetIterator.h
 

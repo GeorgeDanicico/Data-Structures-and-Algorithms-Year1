@@ -277,6 +277,33 @@ ShortTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADT_Set_Lab_4.dir\build.make CMakeFiles/ADT_Set_Lab_4.dir/ShortTest.cpp.s
 .PHONY : ShortTest.cpp.s
 
+tests.obj: tests.cpp.obj
+
+.PHONY : tests.obj
+
+# target to build an object file
+tests.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADT_Set_Lab_4.dir\build.make CMakeFiles/ADT_Set_Lab_4.dir/tests.cpp.obj
+.PHONY : tests.cpp.obj
+
+tests.i: tests.cpp.i
+
+.PHONY : tests.i
+
+# target to preprocess a source file
+tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADT_Set_Lab_4.dir\build.make CMakeFiles/ADT_Set_Lab_4.dir/tests.cpp.i
+.PHONY : tests.cpp.i
+
+tests.s: tests.cpp.s
+
+.PHONY : tests.s
+
+# target to generate assembly for a file
+tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADT_Set_Lab_4.dir\build.make CMakeFiles/ADT_Set_Lab_4.dir/tests.cpp.s
+.PHONY : tests.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -301,6 +328,9 @@ help:
 	@echo ... ShortTest.obj
 	@echo ... ShortTest.i
 	@echo ... ShortTest.s
+	@echo ... tests.obj
+	@echo ... tests.i
+	@echo ... tests.s
 .PHONY : help
 
 

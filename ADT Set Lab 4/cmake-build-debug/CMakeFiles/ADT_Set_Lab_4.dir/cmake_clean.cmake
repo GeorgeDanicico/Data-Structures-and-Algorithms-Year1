@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ADT_Set_Lab_4.dir/Set.cpp.obj"
   "CMakeFiles/ADT_Set_Lab_4.dir/SetIterator.cpp.obj"
   "CMakeFiles/ADT_Set_Lab_4.dir/ShortTest.cpp.obj"
+  "CMakeFiles/ADT_Set_Lab_4.dir/tests.cpp.obj"
   "libADT_Set_Lab_4.dll.a"
 )
 

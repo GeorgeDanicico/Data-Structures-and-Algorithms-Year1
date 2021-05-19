@@ -49,6 +49,9 @@ class Set {
         //check whether the set is empty or not;
         bool isEmpty() const;
 
+        //removes all elements from the Set
+        void empty();
+
         //return an iterator for the set
         SetIterator iterator() const;
 

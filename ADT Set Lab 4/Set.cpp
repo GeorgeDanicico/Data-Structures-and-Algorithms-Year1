@@ -96,6 +96,19 @@ bool Set::isEmpty() const {
 // Worst case: theta(1)
 // Total complexity: theta(1)
 
+void Set::empty() {
+
+    for(int i=0; i<this->capacity && this->current_size > 0; i++){
+        if(this->elements[i] != DEL_TELEM && this->elements[i] != NULL_TELEM){
+            this->elements[i] = DEL_TELEM;
+            this->current_size--;
+        }
+    }
+}
+// Best case: theta(1) -> when the table there is only one element.
+// Worst case: theta(m) -> (m is the capacity) when the hashtable is full.
+// Total complexity: O(m)
+
 Set::~Set() {
 	delete this->elements;
 }

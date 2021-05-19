@@ -6,6 +6,7 @@ CMakeFiles/ADT_Set_Lab_4.dir/App.cpp.obj: ../ExtendedTest.h
 CMakeFiles/ADT_Set_Lab_4.dir/App.cpp.obj: ../Set.h
 CMakeFiles/ADT_Set_Lab_4.dir/App.cpp.obj: ../SetIterator.h
 CMakeFiles/ADT_Set_Lab_4.dir/App.cpp.obj: ../ShortTest.h
+CMakeFiles/ADT_Set_Lab_4.dir/App.cpp.obj: ../tests.h
 
 CMakeFiles/ADT_Set_Lab_4.dir/ExtendedTest.cpp.obj: ../ExtendedTest.cpp
 CMakeFiles/ADT_Set_Lab_4.dir/ExtendedTest.cpp.obj: ../ExtendedTest.h
@@ -24,4 +25,9 @@ CMakeFiles/ADT_Set_Lab_4.dir/ShortTest.cpp.obj: ../Set.h
 CMakeFiles/ADT_Set_Lab_4.dir/ShortTest.cpp.obj: ../SetIterator.h
 CMakeFiles/ADT_Set_Lab_4.dir/ShortTest.cpp.obj: ../ShortTest.cpp
 CMakeFiles/ADT_Set_Lab_4.dir/ShortTest.cpp.obj: ../ShortTest.h
+
+CMakeFiles/ADT_Set_Lab_4.dir/tests.cpp.obj: ../Set.h
+CMakeFiles/ADT_Set_Lab_4.dir/tests.cpp.obj: ../SetIterator.h
+CMakeFiles/ADT_Set_Lab_4.dir/tests.cpp.obj: ../tests.cpp
+CMakeFiles/ADT_Set_Lab_4.dir/tests.cpp.obj: ../tests.h
 

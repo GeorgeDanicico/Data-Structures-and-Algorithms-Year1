@@ -11,4 +11,6 @@ add_executable(ADT_Set_Lab_4 App.cpp
         ShortTest.cpp
         ShortTest.h
         ExtendedTest.cpp
-        ExtendedTest.h)
+        ExtendedTest.h
+        tests.cpp
+        tests.h)
