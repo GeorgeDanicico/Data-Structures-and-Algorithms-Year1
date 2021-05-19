@@ -1,0 +1,9 @@
+﻿  App.cpp
+  ExtendedTest.cpp
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedMultiMap Lab5\ExtendedTest.cpp(208,20): warning C4101: 'ex': unreferenced local variable
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedMultiMap Lab5\ExtendedTest.cpp(215,20): warning C4101: 'ex': unreferenced local variable
+  ShortTest.cpp
+  SMMIterator.cpp
+  SortedMultiMap.cpp
+  Generating Code...
+  SortedMultiMap Lab5.vcxproj -> C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Data-Structures-and-Algorithms-Year1\SortedMultiMap Lab5\Debug\SortedMultiMap Lab5.exe
