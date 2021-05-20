@@ -33,6 +33,14 @@ class SortedMultiMap {
     private:
         BST tree;
         Relation rel;
+        int csize;
+
+        void resize(BSTNode* node);
+        BSTNode* initNode();
+        BSTNode* findMinimum(BSTNode* root);
+        void removeNode(BSTNode* root, BSTNode* child);
+
+        void inorderTravesal(BSTNode* node);
     public:
 
     // constructor

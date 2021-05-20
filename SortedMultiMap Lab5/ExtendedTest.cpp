@@ -163,7 +163,14 @@ void testRemoveSearch(Relation r) {
             assert(smm.remove(c,c) == true);
 		testIteratorSteps(smm);
 	}
-	
+	testIteratorSteps(smm);
+	//SMMIterator it = smm.iterator();
+	//TElem pair = it.getCurrent();
+	//while (it.valid()) {
+	//	pair = it.getCurrent();
+	//	cout << pair.first << " " << pair.second << endl;
+	//	it.next();
+	//}
 	for (int c = min; c <= max; c++) {
 		if (c%2==1){
             assert(smm.remove(c,c+1) == false);

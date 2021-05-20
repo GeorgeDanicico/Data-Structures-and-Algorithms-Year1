@@ -11,11 +11,15 @@ private:
 	SMMIterator(const SortedMultiMap& map);
 
 	//TODO - Representation
+	BSTNode* current_node;
+	BSTNode** stack;
+	int current_size, stack_size;
 
 public:
 	void first();
 	void next();
 	bool valid() const;
    	TElem getCurrent() const;
+	~SMMIterator();
 };
 
