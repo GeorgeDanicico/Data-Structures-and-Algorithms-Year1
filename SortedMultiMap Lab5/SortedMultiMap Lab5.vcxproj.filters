@@ -30,6 +30,9 @@
     <ClCompile Include="SortedMultiMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NewTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExtendedTest.h">
@@ -43,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="SortedMultiMap.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewTest.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

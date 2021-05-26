@@ -227,7 +227,7 @@ vector<TValue> SortedMultiMap::search(TKey c) const {
 		return vector<TValue>(node->values, node->values + node->current_size);
 }
 // Best case: theta(1) -> if the node we are searching for is the root
-// Worst case: theta(n) -> if the tree is degenerate.
+// Worst case: theta(n) -> if the tree is degenerate to the left.
 // Total: O(n)
 
 bool SortedMultiMap::remove(TKey c, TValue v) {
@@ -276,9 +276,9 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
 		return value_found;
 	}
 }
-// Best case: theta(1) if the node we are searching for is the root, and the value required is on the first position of the array.
-// Worst case: theta(n) if the tree is degenerate and the node we are searching is the last, and also the value is the last in the array.
-// Total: O(n)
+// Best case: theta(1) if the node we are searching for is the root, and the value required is the last value in the array.
+// Worst case: theta(n + m) if the tree is degenerate and the node we are searching is the last, or the size of the node's values array is greater then the height of the tree.
+// Total: O(n + m)
 
 int SortedMultiMap::size() const {
 	return csize;
@@ -293,6 +293,51 @@ bool SortedMultiMap::isEmpty() const {
 // Best case: theta(1)
 // Worst case: theta(1)
 // Total: theta(1)
+
+vector<TValue> SortedMultiMap::removeKey(TKey key)
+{
+	BSTNode* node = this->tree.root;
+	BSTNode* previous = NULL;
+
+	bool found = false;
+	// Searching the element in the BST
+	// We will keep the previous for the current node in order to remove the 
+	while (node != nullptr && found == false) {
+		
+		if (node->key == key) {
+			found = true;
+		}
+		else {
+			if (this->rel(key, node->key)) {
+				previous = node;
+				node = node->left;
+			}
+			else {
+				previous = node;
+				node = node->right;
+			}
+		}
+	}
+	// if the element was not found, we return an empty vector.
+	if (found == false) {
+		return vector<TValue>();
+	}
+	else {
+		// otherwise we iterate throw the DA and add all the elements in the vector
+		// and return it.
+		vector<TValue> v;
+		TValue* Val = node->values;
+		for (int i = 0; i < node->current_size; i++) {
+			v.push_back(Val[i]);
+			this->csize--;
+		}
+		this->removeNode(previous, node);
+		return v;
+	}
+}
+// Best case: theta(1) // when the key we want to delete is the key of the root and the size of the array is 1.
+// Worst case: theta(n + m) // when the graph is degenerate, or when the array of the key has the size m, where m > n
+// Total: O(n + m)
 
 SMMIterator SortedMultiMap::iterator() const {
 	return SMMIterator(*this);

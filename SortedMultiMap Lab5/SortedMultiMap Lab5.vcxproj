@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="ExtendedTest.cpp" />
+    <ClCompile Include="NewTest.cpp" />
     <ClCompile Include="ShortTest.cpp" />
     <ClCompile Include="SMMIterator.cpp" />
     <ClCompile Include="SortedMultiMap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExtendedTest.h" />
+    <ClInclude Include="NewTest.h" />
     <ClInclude Include="ShortTest.h" />
     <ClInclude Include="SMMIterator.h" />
     <ClInclude Include="SortedMultiMap.h" />
