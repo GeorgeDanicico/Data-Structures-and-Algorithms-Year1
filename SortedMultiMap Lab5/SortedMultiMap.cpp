@@ -82,8 +82,7 @@ void SortedMultiMap::removeNode(BSTNode* parent, BSTNode* child)
 
 		if (minimum != child->right)
 			minimum->right = child->right;
-		else
-			minimum->right = nullptr;
+
 		minimum->left = child->left;
 
 		if (isRoot) {
